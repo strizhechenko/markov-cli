@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-'''Heil to combinatoric explosion reduce!'''
+'''Generate all the things'''
 
 import os
 
@@ -20,8 +20,8 @@ setup(
     author_email='oleg.strizhechenko@gmail.com',
     license='GPL',
     url='https://github.com/strizhechenko/markov-cli',
-    keywords='combinatoric testing utils fuzz pairwise nwise reduce',
-    description='Utility designed for check combinations of multiple binary params',
+    keywords='markov chain, fun, cli',
+    description='You can mix Plato and Goldratt for example.',
     long_description=(read('README.md')),
     packages=find_packages(exclude=['tests*']),
     scripts=['utils/markov-cli'],
@@ -32,7 +32,6 @@ setup(
         'Operating System :: MacOS',
         'Operating System :: POSIX',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',
         'Topic :: Software Development',
         'Topic :: Utilities',
