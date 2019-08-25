@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# coding=utf-8
+
+from markov_cli import MarkovCli
+
+if __name__ == '__main__':
+    MarkovCli.main()
